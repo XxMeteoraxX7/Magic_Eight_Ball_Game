@@ -15,7 +15,7 @@ let eightBall = '';
     username ? alert(`Hello, ${username}!`) : alert('Hello!');
     userQuestion = prompt('What do you wish to ask the Magic Eight Ball?');
 
-    if (userQuestion === null) {
+    if (userQuestion === '') {
         return;
     }
 
