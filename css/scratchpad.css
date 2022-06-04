@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+  }
+  
+  html,body {
+    margin:0;
+    padding:0;
+
+    }
+  
+  body {
+    background: linear-gradient(darkblue, rgb(116, 202, 231), darkblue);
+    font-family: "Open Sans", sans-serif;
+    width: 100%;
+    min-width: 940px;
+    position: relative;
+  }
+  
+  header {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    line-height: 4rem;
+  }
+
+  button {
+      background-color: black;
+      padding: 2rem;
+      border: .1rem groove white;
+  }
+
+  section {
+      text-align: center; 
+  }
+  
+  .aecp-banner {
+    width: 100%;
+  }
+
+  a {
+    color: yellow;
+  }
+  a:hover {
+    background: black;
+  }
+  
+  #contact {
+  margin-left: auto;
+  margin-right: auto;
+    border: .125rem groove white;
+    line-height: 3em;
+    background: radial-gradient(darkblue, black);
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  #contact h3 {
+    text-align: center;
+    font-size: 2rem;
+    text-decoration: underline;
+  }
+  
+  #contact ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+  
+  #contact li {
+    display: inline-block;
+    width: 33.3333333333%;
+    margin-right: -.25rem;
+    font-size: 1.4rem;
+  }
+  
+  #contact a {
+    display: block;
+    text-decoration: none;
+  }
+  
+  #contact p {
+    border: none;
+    padding: 0;
+    margin: 0;
+    line-height: 1rem;
+  }
