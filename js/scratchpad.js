@@ -16,6 +16,7 @@ let eightBall = '';
     userQuestion = prompt('What do you wish to ask the Magic Eight Ball?');
 
     if (userQuestion === '') {
+        alert('Please retry but this time enter a question.');
         return;
     }
 
